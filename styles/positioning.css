@@ -4,47 +4,28 @@ body {
 <style>
 
 nav {
-  background-color: gray;
   text-align: justify;
-  width:100%;
 }
-
-nav a:link {
-  color:purple;
-  width:20%;
-  text-align: center;
-}
-nav a:visited {
-  color:fuchsia;
-}
-nav a:active{
-  color:fuchsia;
-}
-
-a:link{
-  color:indianred;
-}
-
-a:visited {
-  color:indianred;
-}
-a:active{
-  color:indianred;
-}
-
-.BannerBackground {
-  background-color: black;
-}
-
 nav ul {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
-  margin-left: 2rem;
-  margin-right: 2rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
   font-size: 1.5rem;
+  background-color: gray;
 }
 
+nav li a:link {
+  color:purple;
+  text-align: center;
+}
+nav li a:visited {
+  color:rebeccapurple;
+}
+nav li a:active{
+  color:rebeccapurple;
+}
 .LinkLeftBig{
   text-align: right;
   font-size: 1.7rem;
@@ -54,10 +35,15 @@ nav ul {
   padding-left: 2rem
 }
 
+.BannerBackground {
+  background-color: black;
+}
 header {
   top: 0;
   width: 100%;
   text-align: right;
+  left: 5px; 
+  right: 5px;
   margin: 0;
   padding: 0;
 }
@@ -77,6 +63,16 @@ header h3{
   padding: 0;
   margin: 0;
   text-align: left;
+}
+header a:link{
+  color:red;
+}
+
+header a:visited {
+  color:red;
+}
+header a:active{
+  color:red;
 }
 
 article p{
@@ -118,6 +114,16 @@ aside p{
   padding: 1px;
 }
 
+aside a:link{
+  color:red;
+}
+
+aside a:visited {
+  color:red;
+}
+aside a:active{
+  color:red;
+}
 footer{
   position:absolute;
   top: 800px; 
@@ -139,4 +145,14 @@ footer h5{
   font-weight: 100;
   padding: 0;
   margin: 0;
+}
+footer a:link{
+  color:red;
+}
+
+footer a:visited {
+  color:red;
+}
+footer a:active{
+  color:red;
 }

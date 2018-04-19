@@ -2,55 +2,141 @@ body {
   padding: 4rem 0 0;
 }
 <style>
+
+nav {
+  background-color: gray;
+  text-align: justify;
+  width:100%;
+}
+
+nav a:link {
+  color:purple;
+  width:20%;
+  text-align: center;
+}
+nav a:visited {
+  color:fuchsia;
+}
+nav a:active{
+  color:fuchsia;
+}
+
+a:link{
+  color:indianred;
+}
+
+a:visited {
+  color:indianred;
+}
+a:active{
+  color:indianred;
+}
+
+.BannerBackground {
+  background-color: black;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-size: 1.5rem;
+}
+
+.LinkLeftBig{
+  text-align: right;
+  font-size: 1.7rem;
+}
+
+.Offset{
+  padding-left: 2rem
+}
+
 header {
-  background: #ffffff;
-  position: fixed;
   top: 0;
   width: 100%;
-}
-/*
-.container{position: relative}
-.large{position: fixed; width:100%}
-.small{position: relative; top:300; left:400}
-
-</style>
-
-<div class=container>...
-*/
-nav {
-  /*position: relative;
-  right: 5rem;*/
-}
-
-.card {
-  border: 1px solid #333;
-  margin: 0 auto;
-  position: relative;
-  width: 30rem;
-}
-
-.card-hero {
+  text-align: right;
   margin: 0;
-  max-width: 100%;
-  height: 10rem;
+  padding: 0;
+}
+header h1{
+  color:white;
+  font-size: 3em;
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+  text-align: left;
 }
 
-.card-fave {
+header h3{
+  color:gray;
+  font-size: 1.25em;
+  font-weight: 100;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+article p{
+  position:relative;
+  width: 25rem;
+  height 7rem;
+  padding: 0;
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.CatOfTheWeek{
   position: absolute;
-  right: 1rem;
-  top: 7rem;
+  width: 22rem;
+  height: 35rem;
+  top: 250px;
+  right: 250px;
+  border: 1px solid black;
 }
 
-.card-fave img {
-  border-radius: 50%;
+img {
+  height: 120px;
+  width: 160px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.card-headline {
-  font-family: 'Griffy', cursive;
+aside h2{
+  text-align: center;
 }
 
-.card-author {
-  font-weight: normal;
-  font-style: normal;
-  font-size: 0.75rem;
+aside h3{
+  text-align: center;
+}
+
+aside p{
+  text-align: right;
+  padding: 1px;
+}
+
+footer{
+  position:absolute;
+  top: 800px; 
+  left: 5px; 
+  right: 5px;
+  margin: 0;
+  padding: 1rem;
+}
+footer p{
+  color: white;
+  font-size: 1rem;  
+  padding: 0;
+  margin: 0;
+}
+footer h5{
+  color:white;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 100;
+  padding: 0;
+  margin: 0;
 }

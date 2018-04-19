@@ -21,10 +21,10 @@ nav li a:link {
   text-align: center;
 }
 nav li a:visited {
-  color:rebeccapurple;
+  color:purple;
 }
 nav li a:active{
-  color:rebeccapurple;
+  color:purple;
 }
 .LinkLeftBig{
   text-align: right;
@@ -74,11 +74,14 @@ header a:visited {
 header a:active{
   color:red;
 }
+article{
+  padding: .5rem;
+}
 
 article p{
+  display: inline-block;
   position:relative;
   width: 25rem;
-  height 7rem;
   padding: 0;
   margin: 0;
   font-size: 1.25rem;
@@ -87,7 +90,7 @@ article p{
 .CatOfTheWeek{
   position: absolute;
   width: 22rem;
-  height: 35rem;
+  height: 30rem;
   top: 250px;
   right: 250px;
   border: 1px solid black;
@@ -103,15 +106,25 @@ img {
 
 aside h2{
   text-align: center;
+  padding: 0;
+  padding-bottom: 0.5rem; 
+  padding-top: 1rem;
+  margin: 0;
 }
 
 aside h3{
   text-align: center;
+  padding: 0;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem; 
+  margin: 0;
 }
 
 aside p{
   text-align: right;
-  padding: 1px;
+  padding: 0;
+  padding-right: 1px;
+   margin: 0;
 }
 
 aside a:link{
